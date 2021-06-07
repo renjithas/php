@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [php Test Suite]">
+  <listeners>
+    <listener class-name="net.phptravels.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Regression Test cases(failed)">
+    <classes>
+      <class name="net.phptravels.testcases.HotelDetailsPageTest">
+        <methods>
+          <include name="verifyEnteredDetails"/>
+          <include name="verifyHotelDetailsPageTitle"/>
+          <include name="bookRoom"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- net.phptravels.testcases.HotelDetailsPageTest -->
+      <class name="net.phptravels.testcases.HomePageTests">
+        <methods>
+          <include name="teadDown"/>
+          <include name="searchHotel"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- net.phptravels.testcases.HomePageTests -->
+      <class name="net.phptravels.testcases.BookAsGuestTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confirmGuestBooking"/>
+          <include name="verifyBookAsGuestPageTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- net.phptravels.testcases.BookAsGuestTest -->
+    </classes>
+  </test> <!-- Regression Test cases(failed) -->
+</suite> <!-- Failed suite [php Test Suite] -->

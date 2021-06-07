@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="php Test Suite">
+
+	<listeners>
+		<listener class-name = "net.phptravels.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="Regression Test cases">
+		<classes>
+			<class name="net.phptravels.testcases.HomePageTests"></class>
+			<class name="net.phptravels.testcases.HotelDetailsPageTest"></class>
+			<class name="net.phptravels.testcases.BookAsGuestTest"></class>
+		</classes>
+	</test>
+
+</suite>
