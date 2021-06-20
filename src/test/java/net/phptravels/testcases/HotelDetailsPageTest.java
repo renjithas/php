@@ -1,4 +1,10 @@
 package net.phptravels.testcases;
+/*
+requirement:
+Select any hotel and click on details.
+Confirm that the details provided are reflected here.
+Select the number of rooms and click the 'Select room' checkbox.
+ */
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

@@ -1,4 +1,7 @@
 package net.phptravels.testcases;
+/*
+ * Book as guest; select all the extras and confirm booking.
+ */
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;

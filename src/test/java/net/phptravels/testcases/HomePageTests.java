@@ -1,4 +1,17 @@
 package net.phptravels.testcases;
+/*
+Navigate to https://phptravels.net/home.
+Convert the currency to INR.
+Select the language as ENGLISH.
+Select HOTELS and provide the following details:
+	Destination - dubai
+	Check in
+	Checkout
+	Adults - 1
+	Child - 2
+Click Search
+
+ */
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -46,7 +59,7 @@ public class HomePageTests extends TestBase{
 		}
 	
 	@AfterMethod
-	public void teadDown() {
+	public void tearDown() {
 		driver.quit();
 	}
 }
